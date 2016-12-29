@@ -1,0 +1,270 @@
+#slider {
+	position: relative;
+	width: 890px;
+	padding: 20px 10px 0 70px;
+}
+
+#templatemo_sidebar {
+	float: left;
+	width: 270px;
+}
+
+#templatemo_main {
+	float: right;
+	padding-top: 50px;
+	width: 600px;
+}
+
+#templatemo_header {
+	margin-left: 10px;
+	width: 230px;
+	height: 114px;
+	text-align: center;
+	padding: 80px 0 0 0;
+	background: url(../images/templatemo_header.jpg) no-repeat top left;
+}
+
+#social_box {
+	display: block;
+	width: 550px;
+	height: 48px;
+	padding: 16px 0px 16px 50px;
+	margin-bottom: 20px;
+	background: url(../images/templatemo_social_box.jpg) no-repeat;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li a {
+	width: 48px;
+	height: 48px;
+	margin-right: 60px;
+}
+
+#content {
+	height: 455px;
+	width: 600px;
+	background: url(../images/templatemo_content.jpg) no-repeat;
+}
+
+.scroll {
+	height: 455px;
+	width: 600px;
+	overflow: auto;
+	/*  overflow-x: hidden; */
+	position: relative;
+	clear: left;
+}
+
+.scrollContainer div.panel {
+	padding: 30px;
+	height: 395px;
+	width: 540px;
+}
+
+ul.navigation {
+	width: 270px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+ul.navigation li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 190px;
+	height: 33px;
+	padding: 12px 0 0 80px;
+	margin-bottom: 5px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+}
+
+ul.navigation a .ui_icon {
+	position: absolute;
+	top: 2px;
+	left: 15px;
+	width: 40px;
+	height: 40px;
+}
+
+ul.navigation a .home {
+	background: url(../images/icon_home.png) no-repeat;
+}
+
+ul.navigation a .passrecov {
+	background: url(../images/icon_passrecov.png) no-repeat;
+}
+
+ul.navigation a .aboutus {
+	background: url(../images/icon_aboutus.png) no-repeat;
+}
+
+ul.navigation a .services {
+	background: url(../images/icon_signup.png) no-repeat;
+}
+
+ul.navigation a .gallery {
+	background: url(../images/icon_gallery.png) no-repeat;
+}
+
+ul.navigation a .contactus {
+	background: url(../images/icon_contactus.png) no-repeat;
+}
+
+ul.navigation a .profile {
+	background: url(../images/icon_myprofile.png) no-repeat;
+}
+
+ul.navigation a .friend {
+	background: url(../images/icon_friend.png) no-repeat;
+}
+
+ul.navigation a .help {
+	background: url(../images/icon_help.png) no-repeat;
+}
+
+ul.navigation a .chat {
+	background: url(../images/icon_chat.png) no-repeat;
+}
+
+ul.navigation a .group {
+	background: url(../images/icon_group.png) no-repeat;
+}
+
+ul.navigation a .email {
+	background: url(../images/icon_mail.png) no-repeat;
+}
+
+ul.navigation a .ad {
+	background: url(../images/icon_ad.png) no-repeat;
+}
+
+ul.navigation a .wall {
+	background: url(../images/icon_wall.png) no-repeat;
+}
+
+ul.navigation a .note {
+	background: url(../images/icon_note.png) no-repeat;
+}
+
+ul.navigation a .setting {
+	background: url(../images/icon_setting.png) no-repeat;
+}
+
+ul.navigation a .logout {
+	background: url(../images/icon_logout.png) no-repeat;
+}
+
+
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #201f1b;
+	background: url(../images/templatemo_menu_hover.png) no-repeat left;
+}
+
+ul.navigation a:hover .home, ul.navigation a.selected .home {
+	background: url(../images/icon_hover_home.png) no-repeat;
+}
+
+ul.navigation a:hover .passrecov, ul.navigation a.selected .passrecov {
+	background: url(../images/icon_hover_passrecov.png) no-repeat;
+}
+
+ul.navigation a:hover .aboutus, ul.navigation a.selected .aboutus {
+	background: url(../images/icon_hover_aboutus.png) no-repeat;
+}
+
+ul.navigation a:hover .services, ul.navigation a.selected .services {
+	background: url(../images/icon_hover_signup.png) no-repeat;
+}
+
+ul.navigation a:hover .gallery, ul.navigation a.selected .gallery {
+	background: url(../images/icon_hover_gallery.png) no-repeat;
+}
+
+ul.navigation a:hover .contactus, ul.navigation a.selected .contactus {
+	background: url(../images/icon_hover_contactus.png) no-repeat;
+}
+
+ul.navigation a:hover .profile, ul.navigation a.selected .profile {
+	background: url(../images/icon_hover_myprofile.png) no-repeat;
+}
+
+ul.navigation a:hover .ad, ul.navigation a.selected .ad {
+	background: url(../images/icon_hover_ad.png) no-repeat;
+}
+	
+ul.navigation a:hover .friend, ul.navigation a.selected .friend {
+	background: url(../images/icon_hover_friend.png) no-repeat;
+}
+
+ul.navigation a:hover .chat, ul.navigation a.selected .chat {
+	background: url(../images/icon_hover_chat.png) no-repeat;
+}
+
+ul.navigation a:hover .email, ul.navigation a.selected .email {
+	background: url(../images/icon_hover_mail.png) no-repeat;
+}
+
+ul.navigation a:hover .note, ul.navigation a.selected .note {
+	background: url(../images/icon_hover_note.png) no-repeat;
+}
+
+ul.navigation a:hover .wall, ul.navigation a.selected .wall {
+	background: url(../images/icon_hover_wall.png) no-repeat;
+}
+
+ul.navigation a:hover .group, ul.navigation a.selected .group {
+	background: url(../images/icon_hover_group.png) no-repeat;
+}
+
+ul.navigation a:hover .help, ul.navigation a.selected .help {
+	background: url(../images/icon_hover_help.png) no-repeat;
+}
+
+ul.navigation a:hover .setting, ul.navigation a.selected .setting {
+	background: url(../images/icon_hover_setting.png) no-repeat;
+}
+
+ul.navigation a:hover .logout, ul.navigation a.selected .logout {
+	background: url(../images/icon_hover_logout.png) no-repeat;
+}
+
+ul.navigation a:focus {
+	outline: none;
+}
+
+.scrollButtons {
+	position: absolute;
+	top: 300px;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+	left: -50px;
+}
+
+.scrollButtons.right {
+	right: -50px;
+}
+
+.hide {
+	display: none;
+}
